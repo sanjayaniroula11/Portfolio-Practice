@@ -1,3 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
 * {
     padding: 0;
     margin: 0;
@@ -30,8 +36,8 @@ nav {
     display: flex;
 }
 
-.nav-list a {
-    margin-left: 30px;
+.nav-list li {
+    margin-left: 100px;
     color: white;
 }
 .hero-text{
@@ -61,7 +67,7 @@ nav {
 
 .service-box{
     width: 250px;
-    height: 255px;
+    /* height: 255px; */
     background-color: yellow;
     border-radius: 10px;
     padding: 25px;
@@ -76,4 +82,38 @@ nav {
 }
 .service-box img{
     width: 100%;
+}
+
+.works-main{
+    background-color: black;
+    padding: 0 50px;
+}
+.car-image{
+    border-radius: 5px;
+}
+.view-btn{
+    padding: 15px 30px;
+    background-color: black;
+    color:  yellow;
+    font-weight: bolder;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.view-btn:hover{
+    background-color: rgb(212, 20, 212);
+    color: white;
+    transition: 0.3s ease-in-out;
+}
+.project-section{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    padding: 30px;
+}
+.psec2{
+    justify-content: center;
+
+}
+.hero-section{
+    background-color: black;
 }
