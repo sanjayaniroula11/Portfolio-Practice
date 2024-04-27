@@ -13,22 +13,8 @@ function Hero() {
         <h3 className="font-bold my-name">I'M SANJAYA NIROULA </h3>
         <h3 className="font-bold frontend-text">FRONTEND DEVELOPER</h3>
       </div>
-      <div className="project-section psec1">
-        <div className="project">
-          {" "}
-          <MyWorks />{" "}
-        </div>
-        <div className="project">
-          {" "}
-          <MyWorks />{" "}
-        </div>
-      </div>
-      <div className="project-section psec2">
-        <div className="project">
-          {" "}
-          <MyWorks />{" "}
-        </div>
-      </div>
+      
+      <MyWorks />
     </div>
   );
 }

@@ -117,3 +117,147 @@ nav {
 .hero-section{
     background-color: black;
 }
+/*////////////////CONTACT SECTION////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+.contact-container {
+    /* background: rgba(0, 0, 0, 0.9);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.9);
+    backdrop-filter: blur(13.1px);
+    -webkit-backdrop-filter: blur(13.1px); */
+
+
+    max-height: 100vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-container form {
+
+    padding: 35px;
+    width: 670px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+
+
+    background: rgba(224, 223, 126, 0.821);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(13.1px);
+    -webkit-backdrop-filter: blur(13.1px);
+    border: 1px solid rgba(243, 240, 38, 1);
+
+
+}
+
+.contact-container form h1 {
+    margin: 20px 0;
+    width: 500px;
+    text-align: center
+}
+
+.contact-container form input {
+    width: 40%;
+    height: 40px;
+    padding-left: 10px;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    margin-bottom: 10px;
+    background: none;
+    border-bottom: 2px solid black;
+}
+
+.contact-container form input::placeholder {
+    color: black;
+}
+
+.contact-container form #lastname,
+.contact-container form #mobile {
+    margin-left: 20px;
+}
+
+.contact-container form h4 {
+    width: 500px;
+    margin: 30px;
+    align-items: center;
+}
+
+.contact-container form textarea {
+    /* From https://css.glass */
+    background: rgba(0, 0, 0, 0.47);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(13.1px);
+    -webkit-backdrop-filter: blur(13.1px);
+    border: 1px solid rgba(0, 0, 0, 1);
+
+
+
+
+    border: none;
+    border-bottom: 2px solid #fff;
+    font-size: 20px;
+    padding: 20px;
+    outline: none;
+    min-width: 500px;
+    max-width: 500px;
+    min-height: 80px;
+}
+
+.contact-container form #button{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.contact-container form #button:hover{
+    background-color: purple;
+    color: white;
+    transition: ease-in-out 0.3s;
+    margin-top: 23px;
+    /* font-weight: 600; */
+
+}
+
+/* //////////////////////////////////////////////////////////////////////////////////*/
+
+
+.skill{
+    height: 100px;
+    width: 100px;
+    background: transparent;
+    display: flex;
+    align-items: center;
+}
+.skill img{
+    width: 100%;
+}
+.skills-gallery{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+    margin-top: 50px;
+    padding: 0 20%;
+}
+.skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 50px;
+    background-color: rgb(0, 0, 0);
+    height: 100vh;
+}
+.skills h2{
+    font-size: 2.5rem;
+}
