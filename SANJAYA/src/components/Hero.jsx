@@ -1,4 +1,6 @@
 import React from "react";
+import Skills from "./Skills";
+import Contact from "./Contact";
 import MyWorks from "./MyWorks";
 
 function Hero() {
@@ -13,8 +15,9 @@ function Hero() {
         <h3 className="font-bold my-name">I'M SANJAYA NIROULA </h3>
         <h3 className="font-bold frontend-text">FRONTEND DEVELOPER</h3>
       </div>
-      
+      <Skills />
       <MyWorks />
+      <Contact />
     </div>
   );
 }
