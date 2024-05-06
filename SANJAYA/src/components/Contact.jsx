@@ -20,8 +20,9 @@ function Contact() {
     <div class="contact-container">
         <form >
             <h1 className='font-bold text-3xl'>In Case You Need It.</h1>
+            <br />
 
-            {user ? <div>WELCOME {user.firstName}</div> : <h1 className='font-bold text-2xl'>Send Message Please</h1>}
+            {user ? <div className='w-full text-center text-2xl font-bold text-purple-400 '>Thank You {user.firstName} ! </div> : <h1 className='font-bold text-2xl'>Send Message Please</h1>}
       
             <input type="text" id="firstname" placeholder="First Name" value={firstName} onChange={(e)=> setFirstName(e.target.value)} required></input>
             <input type="text" id="lastname" placeholder="Last Name" required></input>
