@@ -18,6 +18,7 @@
 }
 
 nav {
+ 
     display: flex;
     justify-content: space-between;
     padding: 50px 100px;
@@ -64,6 +65,50 @@ nav {
     /* color: yellow; */
     margin-top: 50px;
 }
+
+.socials{
+    position: fixed;
+    top: 35%;
+    left: -100px;
+}
+.socials ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: none;
+}
+ 
+.socials ul li{
+    cursor: pointer;
+    width: 150px;
+    text-align: left;
+    border: 1px solid yellow;
+    padding: 7px;
+    border-radius: 2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon{
+    border: solid 1px yellow;
+    font-size: 1rem;
+    padding: 5px 10px;
+    background-color: yellow;
+    color: black;
+
+}
+.one-social{
+
+}
+.one-social:hover{
+
+    margin-left: 100px;
+    transition: ease-in-out  0.3s;
+
+}
+
+
+
 
 .service-box{
     width: 250px;
@@ -127,7 +172,7 @@ nav {
     -webkit-backdrop-filter: blur(13.1px); */
 
 
-    max-height: 100vh;
+    min-height: 100vh;
     background-color: black;
     display: flex;
     align-items: center;
