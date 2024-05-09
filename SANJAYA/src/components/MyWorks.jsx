@@ -1,26 +1,39 @@
-import React from 'react'
-import OneProject from './OneProject'
+import React, { useState } from 'react';
+import Data from './projectdata.json';
 
 function MyWorks() {
-  return (<>
-    <div className="project-section psec1">
-    <div className="project">
-      {" "}
-      <OneProject />{" "}
-    </div>
-    <div className="project">
-      {" "}
-      <OneProject />{" "}
-    </div>
-  </div>
-  <div className="project-section psec2">
-    <div className="project">
-      {" "}
-      <OneProject />{" "}
-    </div>
-  </div>
-  </>
-  )
+  const [projects, setProjects] = useState(Data);
+
+  const renderProjects = () => {
+    if (projects.length === 0) {
+      return <h1>No Projects Available</h1>;
+    } else {
+      return (
+        <div className="project-section">
+          {projects.map((project, index) => (
+            <div className="service-box" key={index}>
+              <img
+                src={project.image}
+                className="car-image"
+                alt=""
+              ></img>
+              <h2 className="font-black">{project.name}</h2>
+              <p className="font-normal">
+                {project.description}
+              </p>
+              <a href={project.link} className="view-btn">View Project</a>
+            </div>
+          ))}
+        </div>
+      );
+    }
+  };
+
+  return (
+    <>
+      {renderProjects()}
+    </>
+  );
 }
 
-export default MyWorks
+export default MyWorks;

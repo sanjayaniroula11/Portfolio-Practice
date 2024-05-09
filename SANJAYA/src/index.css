@@ -111,11 +111,11 @@ nav {
 
 
 .service-box{
-    width: 250px;
+    width: 300px;
     /* height: 255px; */
     background-color: yellow;
     border-radius: 10px;
-    padding: 25px;
+    padding: 10px;
 }
 .service-box h2{
     font-size: 1.3rem;
@@ -151,9 +151,9 @@ nav {
 }
 .project-section{
     display: flex;
+    padding: 10%;
+    align-items: center;
     justify-content: space-around;
-    background-color: black;
-    padding: 30px;
 }
 .psec2{
     justify-content: center;

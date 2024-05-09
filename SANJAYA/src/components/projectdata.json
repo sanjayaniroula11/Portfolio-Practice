@@ -1,0 +1,18 @@
+[
+    {
+      "name": "Todo App",
+      "description": "I've created this todo app with the local storage implementation. You can edit, delete and mark the completed task in this todo app. ",
+      "link": "../assets/todo.png"
+    },
+    {
+      "name": "Todo App",
+      "choices": "I've created this todo app with the local storage implementation. You can edit, delete and mark the completed task in this todo app.",
+      "link": "8485m"
+    },
+    {
+      "name": "Todo App",
+      "choices": "I've created this todo app with the local storage implementation. You can edit, delete and mark the completed task in this todo app. ",
+      "link": "8485m"
+    }
+  ]
+  
