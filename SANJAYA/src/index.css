@@ -133,7 +133,7 @@ nav {
     background-color: black;
     padding: 0 50px;
 }
-.car-image{
+.image-p{
     border-radius: 5px;
 }
 .view-btn{
@@ -155,10 +155,7 @@ nav {
     align-items: center;
     justify-content: space-around;
 }
-.psec2{
-    justify-content: center;
 
-}
 .hero-section{
     background-color: black;
 }

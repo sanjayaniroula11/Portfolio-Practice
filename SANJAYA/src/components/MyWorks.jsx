@@ -16,12 +16,12 @@ function MyWorks() {
                 src={project.image}
                 className="car-image"
                 alt=""
-              ></img>
+              />
               <h2 className="font-black">{project.name}</h2>
               <p className="font-normal">
                 {project.description}
               </p>
-              <a href={project.link} className="view-btn">View Project</a>
+              {/* <a href={project.link} className="view-btn">View Project</a> */}
             </div>
           ))}
         </div>
