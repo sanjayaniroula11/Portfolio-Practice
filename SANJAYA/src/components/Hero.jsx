@@ -7,7 +7,7 @@ function Hero() {
   return (
     <div className="hero-section">
       <div className="big-text">
-        <div className="hero-text">
+        <div className="hero-text my-9">
           <h1 className="font-black text-5xl heading1">I'M GLAD</h1>
           <h1 className="font-black text-5xl heading1">YOU'VE COME THIS FAR</h1>
         </div>

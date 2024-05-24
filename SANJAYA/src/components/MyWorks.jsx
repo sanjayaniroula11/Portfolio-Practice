@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import content from './projectdata.js';
+import portfolio from '../assets/portfolio.png';
 
 function MyWorks() {
 
@@ -13,7 +14,7 @@ function MyWorks() {
           {content.map((project, index) => (
             <div className="service-box" key={index}>
               <img
-                src={project.image}
+                src={portfolio}
                 className="car-image"
                 alt=""
               />
