@@ -1,16 +1,16 @@
 import React, { useState } from 'react';
-import Data from './projectdata.json';
+import content from './projectdata.js';
 
 function MyWorks() {
-  const [projects, setProjects] = useState(Data);
+
 
   const renderProjects = () => {
-    if (projects.length === 0) {
+    if (content.length === 0) {
       return <h1>No Projects Available</h1>;
     } else {
       return (
         <div className="project-section">
-          {projects.map((project, index) => (
+          {content.map((project, index) => (
             <div className="service-box" key={index}>
               <img
                 src={project.image}

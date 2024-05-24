@@ -1,12 +1,14 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
+import logo2 from "../assets/logo2.png"
+import logoFinal from "../assets/final-logo2.svg"
 
 function Navbar() {
   return (
     <div className="whole">
       <nav>
         <div className="logo-text">
-          <h2 className="font-black text-3xl logo">SANJAYA</h2>
+          <img src={logoFinal} alt="" className="logo2"></img>
         </div>
         <ul className="nav-list">
           <li>

@@ -18,23 +18,30 @@
 }
 
 nav {
- 
+    position: fixed;
+    width: 100%;
     display: flex;
     justify-content: space-between;
-    padding: 50px 100px;
-    background-color: black;
+    padding: 10px 100px;
+    /* background-color: black; */
     color: white;
 
-    background: rgba(255, 255, 255, 0.13);
+    background: rgba(0, 0, 0, 0.947);
     /* border-radius: 16px; */
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
     /* border: 1px solid rgba(255, 255, 255, 0.3); */
 }
+.logo2{
+    width: 100px;
+    color: black;
+}
 
 .nav-list {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .nav-list li {
