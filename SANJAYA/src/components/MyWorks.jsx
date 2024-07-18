@@ -11,6 +11,7 @@ function MyWorks() {
     } else {
       return (
         <div className="project-section">
+          <h1 className='text-green-400'> Projects Section</h1> <br />
           {content.map((project, index) => (
             <div className="service-box" key={index}>
               <img
