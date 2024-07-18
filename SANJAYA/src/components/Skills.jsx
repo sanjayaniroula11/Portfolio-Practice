@@ -2,41 +2,84 @@ import React from 'react'
 
 function Skills() {
   return (
-    <div class="skills">
-    <h2 className='font-bold text-yellow-300'>Consider These My Areas Of Strength</h2>
-    <div class="skills-gallery">
-        <div class="skill">
-            <img src="https://abrudz.github.io/logos/JS.svg" alt=""></img>
+    <>
+    <div class="service-provided">
+
+    <h1 class="heading-services"> Services I Provide As A Web Developer </h1>
+    <div class="services-grid">
+        
+        <div class="one-grid">
+            <p class="service-topic">Web Design</p>
+            <div class="service-content">
+                <div class="icon-section">
+                    <img src="https://cdn.icon-icons.com/icons2/1091/PNG/512/onlineshop_78377.png" alt=""
+                        class="service-image"></img>
+                </div>
+                <div class="service-description">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis, culpa repudiandae
+                        reprehenderit magni aliquid odit!</p>
+                </div>
+            </div>
         </div>
-        <div class="skill">
-            <img src="https://seeklogo.com/images/R/react-logo-7B3CE81517-seeklogo.com.png" alt=""></img>
+
+        <div class="one-grid">
+            <p class="service-topic">Web Development</p>
+            <div class="service-content">
+                <div class="icon-section">
+                    <img src="https://cdn.icon-icons.com/icons2/3151/PNG/512/web_development_maintenance_construction_teamwork_icon_192840.png"
+                        alt="" class="service-image"></img>
+
+                </div>
+                <div class="service-description">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis, culpa repudiandae
+                        reprehenderit magni aliquid odit!</p>
+                </div>
+            </div>
         </div>
-        <div class="skill">
-            <img src="https://seeklogo.com/images/C/css-3-logo-023C1A7171-seeklogo.com.png" alt=""></img>
+
+        <div class="one-grid">
+            <p class="service-topic">Content Management System    </p>
+            <div class="service-content">
+                <div class="icon-section">
+                    <img src="https://cdn.icon-icons.com/icons2/2104/PNG/512/content_icon_129122.png" alt=""
+                        class="service-image"></img>
+                </div>
+                <div class="service-description">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis, culpa repudiandae
+                        reprehenderit magni aliquid odit!</p>
+                </div>
+            </div>
         </div>
-        <div class="skill">
-            <img src="https://seeklogo.com/images/T/tailwind-css-logo-5AD4175897-seeklogo.com.png" alt=""></img>
-        </div>
-        <div class="skill">
-            <img src="https://seeklogo.com/images/B/bootstrap-logo-3C30FB2A16-seeklogo.com.png" alt=""></img>
-        </div>
-        <div class="skill">
-            <img src="https://seeklogo.com/images/C/c-programming-language-logo-9B32D017B1-seeklogo.com.png" alt=""></img>
-        </div>
-        <div class="skill">
-            <img src="https://seeklogo.com/images/H/html5-without-wordmark-color-logo-14D252D878-seeklogo.com.png" alt=""></img>
-        </div>
-        <div class="skill">
-            <img src="https://seeklogo.com/images/C/c-logo-43CE78FF9C-seeklogo.com.png" alt=""></img>
-        </div>
-        <div class="skill">
-            <img src="https://seeklogo.com/images/G/github-logo-5F384D0265-seeklogo.com.png" alt=""></img>
-        </div>
-        <div class="skill">
-            <img src="https://seeklogo.com/images/G/git-logo-CD8D6F1C09-seeklogo.com.png" alt=""></img>
+
+        <div class="one-grid">
+            <p class="service-topic">Website Maintainance</p>
+            <div class="service-content">
+                <div class="icon-section">
+                    <img src="https://cdn.icon-icons.com/icons2/1154/PNG/512/1486564402-settings_81520.png" alt=""
+                        class="service-image"></img>
+                </div>
+                <div class="service-description">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis, culpa repudiandae
+                        reprehenderit magni aliquid odit!</p>
+                </div>
+            </div>
         </div>
     </div>
+</div>
+
+<div class="whatido">
+    <h1>I build websites, that are: </h1>
+
+    <div class="points">
+        <div class="point-icon">
+
+        </div>
+        <div class="point-description">
+            <p>Lorem.</p>
+        </div>
     </div>
+</div>
+</>
   )
 }
 
