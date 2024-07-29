@@ -104,7 +104,6 @@ nav {
     color: black;
 }
 
-.one-social {}
 
 .one-social:hover {
     margin-left: 100px;
@@ -116,7 +115,9 @@ nav {
     background-color: yellow;
     border-radius: 10px;
     padding: 10px;
+    margin-top: 30px;
 }
+
 
 .service-box h2 {
     font-size: 1.3rem;
@@ -157,10 +158,14 @@ nav {
 }
 
 .project-section {
-    display: flex;
     padding: 10%;
     align-items: center;
     justify-content: space-around;
+}
+.project-grid{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .hero-section {
@@ -341,17 +346,41 @@ nav {
     justify-content: center;
     margin-top: 50px;
 }
-
+.whatido{
+    margin: 100px auto;
+    padding: 0 12.5%;
+}
+.whatido h3{
+    color:yellow;
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.pointss{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+    
+}
 .points{
     /* From https://css.glass */
-background: rgba(15, 243, 65, 0.22);
+background: rgba(255, 251, 20, 0.22);
 border-radius: 16px;
 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 backdrop-filter: blur(5.4px);
 -webkit-backdrop-filter: blur(5.4px);
-border: 1px solid rgba(15, 243, 65, 0.3);
+border: 1px solid rgba(18, 21, 9, 0.3);
 
-width: 400px;
+max-width: 250px;
+margin: 20px 0;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 10px;
+
 }
 
 .point-description{
@@ -360,4 +389,11 @@ width: 400px;
 .point-description p{
     color: white;
     font-weight: 600;
+}
+.point-icon{
+    width: 150px;
+
+}
+point-icon img{
+    width: 100%;
 }
